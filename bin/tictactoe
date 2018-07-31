@@ -45,6 +45,7 @@ end
     when play_again == "N"
       puts "bye!"
       return nil
+    end
 end
 
 
