@@ -37,9 +37,8 @@ game.won? || game.over?
 puts "Would you like to play again? Y or N?"
 play_again = gets.strip
 until play_again == "N"
-play_again =="Y"
   game = Game.new(player_1 = player_1, player_2 = player_2, board = Board.new)
-    game.play
+  game.play
  play_again == "N"
     break
 end
