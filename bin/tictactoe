@@ -41,7 +41,6 @@ play_again =="Y"
   game = Game.new(player_1 = player_1, player_2 = player_2, board = Board.new)
     game.play
  play_again == "N"
-    puts "Bye bye"
     break
 end
 
