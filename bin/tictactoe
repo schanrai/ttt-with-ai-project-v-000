@@ -40,7 +40,6 @@ end
   play_again = gets.strip
   game = Game.new(player_1 = player_1, player_2 = player_2, board = Board.new)
   game.play
-  break if play_again =="N"
 end
 
 
