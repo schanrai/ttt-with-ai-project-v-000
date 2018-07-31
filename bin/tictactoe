@@ -40,7 +40,9 @@ puts "Would you like to play again? Y or N?"
 play_again = gets.strip
 play_again =="Y"
   game = Game.new(player_1 = player_1, player_2 = player_2, board = Board.new)
-    game.play  
+    game.play
+  else
+    break  
 end
 
 
