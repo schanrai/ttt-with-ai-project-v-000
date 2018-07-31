@@ -35,11 +35,14 @@ end
 
   game.won? || game.over?
   play_again=""
-  while play_again == "Y"
+  until play_again == "N"
   puts "Would you like to play again? Y or N?"
   play_again = gets.strip
-  game = Game.new(player_1 = player_1, player_2 = player_2, board = Board.new)
-  game.play
+  case play_again
+    when play_again == "Y"
+      game = Game.new(player_1 = player_1, player_2 = player_2, board = Board.new)
+      game.play
+
 end
 
 
