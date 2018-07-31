@@ -43,6 +43,7 @@ end
   if play_again == "N"
     puts "bye"
     break
+  end
 end
 
 
