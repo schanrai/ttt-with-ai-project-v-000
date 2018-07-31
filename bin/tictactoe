@@ -44,7 +44,7 @@ end
       game.play
     when play_again == "N"
       puts "bye!"
-      return
+      return nil
 end
 
 
